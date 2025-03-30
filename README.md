@@ -226,7 +226,7 @@ The user wins the game when their guessed word is identical to the `answer`. The
 ```html
 <div class="happy banner">
   <p>
-    <strong>Congratulations!</strong> Got it in
+    <strong>Congratulations!</strong> Got it in{' '}
     <strong>3 guesses</strong>.
   </p>
 </div>
