@@ -22,7 +22,7 @@ If you're not sure how to run a local development server, or if you run into som
 
 ## Exercise 1: GuessInput
 
-First thing’s first: we need a way to submit guesses!
+First things first: we need a way to submit guesses!
 
 In the standard Wordle game, a global event listener registers keypresses. This isn't very accessible, and so we're going to do things a little bit differently.
 
@@ -150,7 +150,7 @@ There are two things that should help you tackle this exercise:
 
 - Create a new `Guess` component. 6 instances should be rendered at all times, no matter how many guesses have been submitted.
 - The `Guess` component should render 5 spans, each with the class of `cell`.
-- Each cell should contain a letter, if the `Guess` instance has been given a value. If not, the cell should be blank.
+- Each cell should contain a letter if the `Guess` instance has been given a value. If not, the cell should be blank.
 - Use the `NUM_OF_GUESSES_ALLOWED` constant, when needed.
 - No `key` warnings in the console.
 
@@ -282,7 +282,7 @@ Here's what the keyboard looked like in my implementation:
   - Incorrect letters should have a dark gray background and white text
   - Unused letters should have a light gray background and black text
 - No need to include "Enter" and "Backspace" keys.
-- Don't worry too much about the styling, trying to get the alignment to look exactly like a real keyboard.
+- Don't worry too much about the styling trying to get the alignment to look exactly like a real keyboard.
 
 ## Restart button
 
